@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PageObject Suite">
+
+<listeners>
+    <listener class-name="com.sayem.listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="Login test">
+    <classes>
+        <class name="com.sayem.testcases.LoginTest" />
+    </classes>
+</test>
+
+</suite>

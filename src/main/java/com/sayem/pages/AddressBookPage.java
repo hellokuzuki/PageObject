@@ -16,7 +16,7 @@ public class AddressBookPage {
     }
 
     // Add New Address
-    @FindBy(css = Constants.addNewAddressLink)
+    @FindBy(xpath = Constants.addNewAddressLink)
     WebElement addNewAddressLink;
 
     public AddNewAddressPage AddNewAddress(){

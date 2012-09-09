@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="941f2e89-48df-4ef3-b2d8-ec540fdd3372" name="Default" comment="First Commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
+    <list default="true" id="941f2e89-48df-4ef3-b2d8-ec540fdd3372" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
     </list>
     <ignored path="PageObject.iws" />
@@ -67,15 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestLogin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testng.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,7 +92,7 @@
       <file leaf-file-name="AccountDashboardPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="52" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="25" column="63" selection-start="614" selection-end="629" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +100,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAddNewAddress.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestAddNewAddress.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="52" selection-start="271" selection-end="271" vertical-scroll-proportion="0.18549748">
+            <state line="36" column="19" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressBookPage.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AddressBookPage.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="16" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
+            <state line="27" column="52" selection-start="638" selection-end="638" vertical-scroll-proportion="0.7790894">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,7 +134,16 @@
       <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="62" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+            <state line="20" column="48" selection-start="661" selection-end="678" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestLogin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -188,10 +183,10 @@
         <option value="$PROJECT_DIR$/build.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
       </list>
     </option>
   </component>
@@ -692,29 +687,7 @@
       <recent name="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLogin">
-    <configuration default="false" name="Test_Properties" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sayem.rough.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sayem.rough.Test_Properties" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PageObject" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.TestAddNewAddress">
     <configuration default="false" name="Logging_Example" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -815,6 +788,28 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.sayem.businessclasses.TestLogin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PageObject" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestAddNewAddress" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sayem.businessclasses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.sayem.businessclasses.TestAddNewAddress" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -939,11 +934,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test_Properties" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Logging_Example" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.LoginTest.sampleTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestLogin" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Logging_Example" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginTest.sampleTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestLogin" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestAddNewAddress" />
     </list>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -968,7 +963,11 @@
       <created>1346980963466</created>
       <updated>1346980963466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First Commit">
+      <created>1347164501565</created>
+      <updated>1347164501565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1058,15 +1057,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="52" selection-start="540" selection-end="540" vertical-scroll-proportion="0.45883644">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Xls_Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="54" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
@@ -1106,13 +1096,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="61" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
@@ -1124,24 +1107,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="26" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="16" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,9 +1124,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.25.0/selenium-remote-driver-2.25.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2788" selection-end="2788" vertical-scroll-proportion="0.8072072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="62" selection-start="1297" selection-end="1297" vertical-scroll-proportion="0.0">
+        <state line="20" column="48" selection-start="661" selection-end="678" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="63" selection-start="614" selection-end="629" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="19" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1175,10 +1170,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="271" selection-end="271" vertical-scroll-proportion="0.18549748">
-          <folding />
+        <state line="27" column="52" selection-start="638" selection-end="638" vertical-scroll-proportion="0.7790894">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

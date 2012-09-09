@@ -17,7 +17,7 @@ public class Constants {
     public static final String manageAddressLink ="//*[@id='mainContent']/div[1]/div[3]/div/div[3]/h3/a";
 
 
-    // Address Book Page
+    // AddressBook Page
     public static final String addNewAddressLink ="//*[@id='mainContent']/div/div[3]/div/div[1]/h2/button";
 
    // Add New Address

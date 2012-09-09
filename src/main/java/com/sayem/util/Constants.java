@@ -17,5 +17,20 @@ public class Constants {
     public static final String manageAddressLink ="//*[@id='mainContent']/div[1]/div[3]/div/div[3]/h3/a";
 
 
+    // Address Book Page
+    public static final String addNewAddressLink ="//*[@id='mainContent']/div/div[3]/div/div[1]/h2/button";
+
+   // Add New Address
+    public static final String firstName ="//*[@id='firstname']";
+    public static final String lastName ="//*[@id='lastname']";
+    public static final String telephone ="//*[@id='telephone']";
+    public static final String streetAddress ="//*[@id='street_1']";
+    public static final String city ="//*[@id='city']";
+    public static final String state ="//*[@id='region_id']";
+    public static final String zipCode ="//*[@id='zip']";
+    public static final String saveAddressButton ="//*[@id='form-validate']/div[3]/button";
+
+
+
 
 }

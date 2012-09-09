@@ -1,40 +1,29 @@
 package com.sayem.pages;
 
 
+import com.sayem.util.Constants;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class AccountDashboardPage {
 
+    WebDriver driver;
+    public AccountDashboardPage(WebDriver driver){
+        this.driver = driver;
+    }
+
     // Manage Address
-    @FindBy(xpath = "//*[@id='mainContent']/div[1]/div[3]/div/div[3]/h3/a")
+    @FindBy(xpath = Constants.manageAddressLink)
     WebElement manageAddressLink;
 
 
-    public void viewAll(){
 
-    }
 
-    public void manageAddressButton(){
+    public AddressBookPage manageAddresses(){
         manageAddressLink.click();
-
-    }
-
-    public void billingAddressEditButton(){
-
-    }
-
-    public void shippingAddressEdiButton(){
-
-    }
-
-
-    public void contactInformationEditButton(){
-
-    }
-
-
-    public void newsLetterManagementEditButton(){
+        return PageFactory.initElements(driver, AddressBookPage.class);
 
     }
 

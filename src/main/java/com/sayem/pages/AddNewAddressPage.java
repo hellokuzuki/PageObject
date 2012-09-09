@@ -15,35 +15,35 @@ public class AddNewAddressPage {
     }
 
     // First Name
-    @FindBy(css = Constants.firstName)
+    @FindBy(xpath = Constants.firstName)
     WebElement firstName;
 
     // Last Name
-    @FindBy(css = Constants.lastName)
+    @FindBy(xpath = Constants.lastName)
     WebElement lastName;
 
     // Telephone
-    @FindBy(css = Constants.telephone)
+    @FindBy(xpath = Constants.telephone)
     WebElement telephone;
 
     // Street Address
-    @FindBy(css = Constants.streetAddress)
+    @FindBy(xpath = Constants.streetAddress)
     WebElement streetAddress;
 
     // City
-    @FindBy(css = Constants.city)
+    @FindBy(xpath = Constants.city)
     WebElement city;
 
     // State
-    @FindBy(css = Constants.state)
+    @FindBy(xpath = Constants.state)
     WebElement state;
 
     // Zip Code
-    @FindBy(css = Constants.zipCode)
+    @FindBy(xpath = Constants.zipCode)
     WebElement zipCode;
 
     // Save Address
-    @FindBy(css = Constants.saveAddressButton)
+    @FindBy(xpath = Constants.saveAddressButton)
     WebElement saveAddressButton;
 
 

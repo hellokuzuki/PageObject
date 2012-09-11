@@ -10,10 +10,13 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 
-public class LoginPage {
+public class LoginPage{
 
-    // WebDriver
-    public WebDriver driver;
+    WebDriver driver;
+    // Constructor
+    public LoginPage (WebDriver driver){
+        this.driver = driver;
+    }
 
     // Email Address
     @FindBy(css = Constants.email)
@@ -26,11 +29,6 @@ public class LoginPage {
     // Sign In Button
     @FindBy(css = Constants.signInButton)
     WebElement signInButton;
-
-    // Constructor
-    public LoginPage (WebDriver driver){
-        this.driver = driver;
-    }
 
     // Login --> LandingPage
     public LandingPage doLogin(String email, String password){

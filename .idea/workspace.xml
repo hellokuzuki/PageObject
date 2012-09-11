@@ -2,8 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941f2e89-48df-4ef3-b2d8-ec540fdd3372" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/Logout.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/TestBase.java" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\SaxonLiaison.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\apache-mime4j-0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\browsermob-proxy-2.0-beta-6-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\browsermob-proxy-2.0-beta-6-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\bsh-1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\cglib-nodep-2.1_3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\chromedriver.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-codec-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-io-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-jxpath-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\cssparser-0.9.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\dom4j-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\guava-10.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\hamcrest-all-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\htmlunit-2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\htmlunit-core-js-2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\httpclient-4.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\httpcore-4.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\httpmime-4.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\jcommander-1.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\jna-3.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\json-20080701.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\junit-dep-4.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\log4j-1.2.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\mail.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\nekohtml-1.9.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\operadriver-v0.7.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\poi-3.6-20091214.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\poi-ooxml-3.6-20091214.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\poi-ooxml-schemas-3.6-20091214.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\protobuf-java-2.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\sac-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\saxon-8.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\selenium-java-2.24.1-srcs.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\selenium-java-2.24.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\selenium-server-2.24.1-srcs.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\selenium-server-2.24.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\selenium-server-standalone-2.24.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\serializer-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\testng-6.0.1-nobsh-noguice.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\testng-xslt-maven-plugin-test-0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\testng.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\webconfig.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\xercesImpl-2.9.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\xml-apis-1.3.04.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\Jar Folder\xmlbeans-2.3.0.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/data/Test Cases.xlsx" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/data/Test Cases.xlsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PageObject.iml" afterPath="$PROJECT_DIR$/PageObject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java" />
     </list>
     <ignored path="PageObject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,37 +125,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="testng.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+      <file leaf-file-name="LoginTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="61" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="26" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="280" selection-end="493" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDashboardPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="63" selection-start="614" selection-end="629" vertical-scroll-proportion="0.0">
+            <state line="44" column="64" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,41 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAddNewAddress.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
+      <file leaf-file-name="Application.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/logs/Application.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="19" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddNewAddressPage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="17" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7790894">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddressBookPage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="50" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="48" selection-start="661" selection-end="678" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,7 +148,52 @@
       <file leaf-file-name="TestLogin.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+            <state line="23" column="41" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="35" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="33" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.29787233">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logout.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/Logout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="19" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="57" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="24" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,7 +202,18 @@
       <file leaf-file-name="LoginPage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="72" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
+            <state line="38" column="93" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopMenu.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="55" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,36 +232,38 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/rough/ReadData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/rough/Logging_Example.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/rough/TestScreenshot.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/build.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/Logout.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/base/page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/logs/Application.log" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="keepSourceFolders" value="false" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1926" />
-    <option name="width" value="1919" />
-    <option name="height" value="1080" />
+    <option name="x" value="1" />
+    <option name="y" value="1080" />
+    <option name="width" value="1918" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -249,6 +313,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -278,18 +353,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -416,36 +479,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testcases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rough" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -631,17 +664,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -658,9 +680,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -672,64 +694,7 @@
       <recent name="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestAddNewAddress">
-    <configuration default="false" name="Logging_Example" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sayem.rough.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sayem.rough.Logging_Example" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PageObject" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sayem.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="PageObject" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.sayem.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.sayem.testcases.LoginTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration default="false" name="LoginTest.sampleTest" type="TestNG" factoryName="TestNG" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -809,6 +774,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Logout" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.sayem.businessclasses.Logout" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PageObject" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -818,6 +800,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -847,24 +847,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -918,16 +900,48 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Logging_Example" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.LoginTest.sampleTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestLogin" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TestAddNewAddress" />
-    </list>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    <configuration default="false" name="LoginTest" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sayem.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PageObject" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.sayem.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.sayem.testcases.LoginTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.LoginTest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.LoginTest.sampleTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestLogin" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestAddNewAddress" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Logout" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -959,29 +973,50 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1926" y="0" width="1919" height="1080" extended-state="0" />
+    <frame x="1" y="1080" width="1918" height="1042" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19137466" sideWeight="0.6717391" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18672423" sideWeight="0.670068" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3344671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1046,39 +1081,63 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Xls_Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="54" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+        <state line="10" column="33" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="42" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#25#49#0" expanded="true" />
-          </folding>
+        <state line="9" column="30" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/ErrorUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="984" selection-end="984" vertical-scroll-proportion="0.53128433">
+        <state line="10" column="28" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="82" selection-start="934" selection-end="964" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.26564217">
+        <state line="10" column="57" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="55" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/rough/TestScreenshot.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="683" selection-end="683" vertical-scroll-proportion="0.5554336">
+        <state line="23" column="41" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="93" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1087,84 +1146,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="61" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="14" column="31" selection-start="315" selection-end="315" vertical-scroll-proportion="0.32748538">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/logs/Application.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="26" selection-start="2868" selection-end="2868" vertical-scroll-proportion="0.0">
+        <state line="20" column="19" selection-start="777" selection-end="777" vertical-scroll-proportion="0.46783626">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="280" selection-end="493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="72" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.25.0/selenium-remote-driver-2.25.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2788" selection-end="2788" vertical-scroll-proportion="0.8072072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="48" selection-start="661" selection-end="678" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="691" selection-end="691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="63" selection-start="614" selection-end="629" vertical-scroll-proportion="0.0">
+        <state line="44" column="64" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/TestAddNewAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/businessclasses/Logout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="19" selection-start="1197" selection-end="1197" vertical-scroll-proportion="0.0">
+        <state line="30" column="19" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="50" selection-start="638" selection-end="638" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="36" column="35" selection-start="1269" selection-end="1269" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/AddNewAddressPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="17" selection-start="935" selection-end="935" vertical-scroll-proportion="0.7790894">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="37" column="33" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.29787233">
+          <folding />
         </state>
       </provider>
     </entry>

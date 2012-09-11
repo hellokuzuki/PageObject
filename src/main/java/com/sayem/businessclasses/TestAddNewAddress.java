@@ -10,6 +10,18 @@ import java.util.concurrent.TimeUnit;
 
 public class TestAddNewAddress {
 
+    /*
+       Create a method for each test cases scenario
+       Use TopMenu class --> totsyLogo method to go back/fourth,
+
+       Create a one base class and initialize webdriver constructor
+       and keep all the config files.
+
+       TopMenu is in every TestBase so you got two option
+
+
+     */
+
     public static void main(String [] args){
 
         WebDriver driver = new FirefoxDriver();

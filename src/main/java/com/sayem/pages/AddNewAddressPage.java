@@ -1,15 +1,16 @@
 package com.sayem.pages;
 
 
+import com.sayem.testcases.TestBase;
 import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class AddNewAddressPage {
+public class AddNewAddressPage{
 
     WebDriver driver;
-
+    // Constructor
     public AddNewAddressPage(WebDriver driver){
         this.driver = driver;
     }

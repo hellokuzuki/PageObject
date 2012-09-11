@@ -3,7 +3,6 @@
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
@@ -11,6 +10,19 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/Jar Folder" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/Jar Folder" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/Jar Folder" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/Jar Folder" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-server:2.25.0" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.47" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.47" level="project" />
@@ -91,19 +103,6 @@
     <orderEntry type="library" name="Maven: org.testng:testng:6.7" level="project" />
     <orderEntry type="library" name="Maven: xml-apis:xml-apis-ext:1.3.04" level="project" />
     <orderEntry type="library" name="Maven: org.apache.james:apache-mime4j-core:0.7.2" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/Jar Folder" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/Jar Folder" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/Jar Folder" recursive="false" />
-        <jarDirectory url="file://$MODULE_DIR$/Jar Folder" recursive="false" type="SOURCES" />
-      </library>
-    </orderEntry>
   </component>
 </module>
 

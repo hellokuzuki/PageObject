@@ -5,6 +5,8 @@ public class Constants {
 
     // PATHS
     public static String CONFIG_FILE_PATH =System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\config\\config.properties";
+    public static String OR_FILE_PATH =System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\config\\config.properties";
+
 
     // LoginPage - Sign In Page
     public static final String email ="#email";

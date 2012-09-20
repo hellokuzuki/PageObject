@@ -5,10 +5,16 @@
     <listener class-name="com.sayem.listener.TestsListenerAdapter" />
 </listeners>
 
-<test name="Login test">
-    <classes>
-        <class name="com.sayem.testcases.LoginTest" />
-    </classes>
-</test>
+    <test name="Login test">
+        <classes>
+            <class name="com.sayem.testcases.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Add New Address Book test">
+        <classes>
+            <class name="com.sayem.testcases.AddNewAddress" />
+        </classes>
+    </test>
 
 </suite>

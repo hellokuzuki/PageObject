@@ -1,19 +1,19 @@
 package com.sayem.testcases;
 
-
-import com.sayem.pages.*;
+import com.sayem.pages.LandingPage;
+import com.sayem.pages.LoginPage;
+import com.sayem.util.TestUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.Hashtable;
 import java.util.concurrent.TimeUnit;
 
 
-/*
-   @Test(enabled = false)  to ignore test
-
- */
 public class LoginTest extends TestBase{
     LandingPage landingPage=null;
 
@@ -23,10 +23,12 @@ public class LoginTest extends TestBase{
         initDriver();
     }
 
+    @Test(dataProvider="getLoginData")
+    public void loginTest(Hashtable<String,String> data){
+        if(!TestUtil.isExecutable("LoginTest", xls) || data.get("Runmode").equals("N"))
+            throw new SkipException("Skipping the test");
 
-
-    @Test
-    public void loginTest(){
+        System.out.println("************************************************");
 
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
@@ -34,31 +36,11 @@ public class LoginTest extends TestBase{
         landingPage = loginPage.doLogin(CONFIG.getProperty("username"), CONFIG.getProperty("password"));
         Assert.assertTrue(landingPage!=null, "Could not login");
         isLoggedIn=true;
-        //APPLICATION_LOGS.debug("logged in");
-        //APPLICATION_LOGS.debug("In profile page");
-
-        // wrong username/password
-        // return type	}
-
     }
 
-
-    @Test(dependsOnMethods={"loginTest"})
-    public void addNewAddressToAddressBook(){
-
-        landingPage.accountDashboard();
-        // LandingPage --> AccountDashboardPage
-        AccountDashboardPage accountDashboardPage = landingPage.accountDashboard();
-
-        // AccountDashboardPage --> AddressBookPage
-        AddressBookPage addressBookPage = accountDashboardPage.manageAddresses();
-
-        // AddressBookPage --> AddNewAddressPage
-        AddNewAddressPage addNewAddressPage = addressBookPage.AddNewAddress();
-        addNewAddressPage.addNewAddressBook("Syed","Sayem", "3478789462", "32-48 30th St", "Astoria", "New York", "11106");
+    @DataProvider
+    public Object[][] getLoginData(){
+        return TestUtil.getData("LoginTest", xls);
     }
-
-
-
 
 }

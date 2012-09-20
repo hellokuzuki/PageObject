@@ -5,6 +5,7 @@ import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class TopMenu{
 
@@ -22,6 +23,11 @@ public class TopMenu{
     @FindBy(css = Constants.logoutLink)
     WebElement logoutLink;
 
+    // Totsy Logo
+    @FindBy(css = Constants.totsyLogo)
+    WebElement totsyLogo;
+
+
 
     public void logout(){
         myAccountLink.click();
@@ -29,8 +35,9 @@ public class TopMenu{
 
     }
 
-    public void totsyLogo(){
-
+    public LandingPage goToLandingPage(){
+        totsyLogo.click();
+        return PageFactory.initElements(driver, LandingPage.class);
     }
 
 

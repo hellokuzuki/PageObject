@@ -1,5 +1,6 @@
 package com.sayem.testcases;
 
+import com.sayem.pages.BottomMenu;
 import com.sayem.pages.TopMenu;
 import com.sayem.util.Constants;
 import com.sayem.util.Xls_Reader;
@@ -14,17 +15,13 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
-// parameterize
-// ant, exe-bat
-// xslt reports
-
-
 public class TestBase {
 
     public static Logger APPLICATION_LOGS = null;
     public static Properties CONFIG = null;
     public static WebDriver driver = null;
     public static TopMenu topMenu = null;
+    public static BottomMenu bottomMenu = null;
     public static boolean isLoggedIn = false;
     Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\data\\Test Cases.xlsx");
 
@@ -45,8 +42,6 @@ public class TestBase {
     }
 
     public void initDriver(){
-
-        // Safari is not very stable
 
         // Chrome Driver Path
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\ChromeDriver\\chromedriver.exe");
@@ -74,7 +69,13 @@ public class TestBase {
             topMenu = PageFactory.initElements(driver, TopMenu.class);
         }
         return topMenu;
+    }
 
+    public BottomMenu getBottomMenu(){
+        if(bottomMenu==null){
+            bottomMenu = PageFactory.initElements(driver, BottomMenu.class);
+        }
+        return bottomMenu;
     }
 
 }

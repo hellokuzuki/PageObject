@@ -33,9 +33,11 @@ public class LoginTest extends TestBase{
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
-        landingPage = loginPage.doLogin(CONFIG.getProperty("username"), CONFIG.getProperty("password"));
+        //landingPage = loginPage.doLogin(data.get("Username"),data.get("Password"));  // Read from Excel
+        landingPage = loginPage.doLogin(CONFIG.getProperty("username"), CONFIG.getProperty("password")); // Read from config
         Assert.assertTrue(landingPage!=null, "Could not login");
         isLoggedIn=true;
+        APPLICATION_LOGS.debug("I am in the Landing Page");
     }
 
     @DataProvider

@@ -13,8 +13,6 @@ public class AddNewAddress extends TestBase{
 
         if(!TestUtil.isExecutable("addNewAddress", xls))
             throw new SkipException("Skipping the test");
-
-
         LandingPage landingPage =null;
         //go to landing page - if i am logged in else login
         if(!isLoggedIn){
@@ -23,20 +21,15 @@ public class AddNewAddress extends TestBase{
         }else{
             landingPage = getTopMenu().goToLandingPage();
         }
-
-        // LandingPage --> AccountDashboardPage
         AccountDashboardPage accountDashboardPage = landingPage.accountDashboard();
-
-        // AccountDashboardPage --> AddressBookPage
         AddressBookPage addressBookPage = accountDashboardPage.manageAddresses();
-
-        // AddressBookPage --> AddNewAddressPage
         AddNewAddressPage addNewAddressPage = addressBookPage.AddNewAddress();
+
+        // Keep this data in the Excel-sheet or something but do not hard-code it here!
         addNewAddressPage.addNewAddressBook("Syed","Sayem", "3478789462", "32-48 30th St", "Astoria", "New York", "11106");
 
         // change PIC
 /*
-        APPLICATION_LOGS.debug("Quitting driver");
         try{
             Assert.assertTrue(false, "xxxx");
         }catch(Throwable e){
@@ -45,7 +38,7 @@ public class AddNewAddress extends TestBase{
             return;
         }
 */
-
+        APPLICATION_LOGS.debug("Quitting driver");
         quitDriver();
     }
 }

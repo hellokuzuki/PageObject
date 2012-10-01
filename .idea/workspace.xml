@@ -63,7 +63,7 @@
       <file leaf-file-name="AddressBook.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="791" selection-end="791" vertical-scroll-proportion="0.41509435">
+            <state line="12" column="36" selection-start="329" selection-end="329" vertical-scroll-proportion="0.19533852">
               <folding />
             </state>
           </provider>
@@ -907,7 +907,11 @@
       <created>1349123500958</created>
       <updated>1349123500958</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="First Commit">
+      <created>1349123544062</created>
+      <updated>1349123544062</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1137,7 +1141,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="791" selection-end="791" vertical-scroll-proportion="0.41509435">
+        <state line="12" column="36" selection-start="329" selection-end="329" vertical-scroll-proportion="0.19533852">
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@
 
     <test name="Add New Address Book test">
         <classes>
-            <class name="com.sayem.testcases.AddNewAddress" />
+            <class name="com.sayem.testcases.AddressBook" />
         </classes>
     </test>
 

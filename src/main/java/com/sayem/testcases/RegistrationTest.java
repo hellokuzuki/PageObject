@@ -1,8 +1,8 @@
 package com.sayem.testcases;
 
-import com.sayem.pages.LandingPage;
-import com.sayem.pages.LoginPage;
-import com.sayem.pages.RegistrationPage;
+import com.sayem.pages.sales.LandingPage;
+import com.sayem.pages.login.LoginPage;
+import com.sayem.pages.login.RegistrationPage;
 import com.sayem.util.TestUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;

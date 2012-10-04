@@ -1,7 +1,7 @@
-package com.sayem.pages;
+package com.sayem.pages.login;
 
+import com.sayem.pages.sales.LandingPage;
 import com.sayem.util.Constants;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

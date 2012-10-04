@@ -1,7 +1,11 @@
 package com.sayem.testcases;
 
 
-import com.sayem.pages.*;
+import com.sayem.pages.login.LoginPage;
+import com.sayem.pages.myaccount.AccountDashboardPage;
+import com.sayem.pages.myaccount.AddNewAddressPage;
+import com.sayem.pages.myaccount.AddressBookPage;
+import com.sayem.pages.sales.LandingPage;
 import com.sayem.util.TestUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;

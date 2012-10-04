@@ -1,6 +1,7 @@
-package com.sayem.pages;
+package com.sayem.pages.sales;
 
 
+import com.sayem.pages.myaccount.AccountDashboardPage;
 import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

@@ -48,14 +48,14 @@ public class Page {
 
             System.out.println(CONFIG.getProperty("browser"));
             if (CONFIG.getProperty("browser").equalsIgnoreCase("Firefox"))
-                this.driver= new FirefoxDriver();
+                driver= new FirefoxDriver();
             else if (CONFIG.getProperty("browser").equalsIgnoreCase("Safari"))
-                this.driver= new SafariDriver();
+                driver= new SafariDriver();
             else if (CONFIG.getProperty("browser").equalsIgnoreCase("IE"))
-                this.driver= new InternetExplorerDriver();
+                driver= new InternetExplorerDriver();
             else if (CONFIG.getProperty("browser").equalsIgnoreCase("Chrome")){
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\ChromeDriver\\chromedriver.exe");
-                this.driver= new ChromeDriver();
+                driver= new ChromeDriver();
             }
 
             // Implicit wait for whole framework
@@ -113,7 +113,7 @@ public class Page {
             events.get(index).click();
 
         } catch (Exception e) {
-
+            e.getMessage();
         }
     }
 

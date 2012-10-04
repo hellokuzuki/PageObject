@@ -1,4 +1,4 @@
-package com.sayem.pages;
+package com.sayem.pages.myaccount;
 
 import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;

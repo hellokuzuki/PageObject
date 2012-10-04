@@ -1,12 +1,11 @@
 package com.sayem.testcases;
 
-import com.sayem.pages.*;
+import com.sayem.pages.login.LoginPage;
+import com.sayem.pages.login.ResetPasswordPage;
 import com.sayem.util.TestUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 public class ResetPassword extends TestBase{
     @Test

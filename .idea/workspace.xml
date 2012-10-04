@@ -2,14 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="941f2e89-48df-4ef3-b2d8-ec540fdd3372" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javassist_javassist_3_12_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/base/PageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/AddToCartPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/CheckoutPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/ShoppingCartPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/login/PasswordValidationPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountInformationPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ChangePasswordPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ManageCreditCardsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyCreditsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyInvitationsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyOrdersPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/AboutUsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/AffiliatesPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/BeingGreenPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/BlogPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/CareersPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/ContactUsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/FaqPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/MadeInNYCPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/MeetTheMomsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/PrivacyPolicyPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/TermsOfUsePage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/TotsyInThePressPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/random/VideoTestimonialsPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/CatergoryPage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/ProductPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\AccountDashboardPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountDashboardPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\AddNewAddressPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddNewAddressPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\AddressBookPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddressBookPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\LandingPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/LandingPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\LoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/login/LoginPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\RegistrationPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/login/RegistrationPage.java" />
+      <change type="MOVED" beforePath="C:\Users\Administrator\Dropbox\IdeaProjects\PageObject\src\main\java\com\sayem\pages\ResetPasswordPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/login/ResetPasswordPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PageObject.iml" afterPath="$PROJECT_DIR$/PageObject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chromedriver.log" afterPath="$PROJECT_DIR$/chromedriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/execute_project.bat" afterPath="$PROJECT_DIR$/execute_project.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/AccountDashboard.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/AccountDashboard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/AddressBook.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/AddressBook.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ChangePassword.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ChangePassword.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ManageCreditCards.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ManageCreditCards.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyCredits.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyCredits.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyInvitations.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyInvitations.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyOrders.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyOrders.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/RegistrationTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/RegistrationTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ResetPassword.java" afterPath="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ResetPassword.java" />
     </list>
     <ignored path="PageObject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,10 +105,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Page.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java">
+      <file leaf-file-name="AddNewAddressPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddNewAddressPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="47" selection-start="4400" selection-end="4400" vertical-scroll-proportion="0.7398649">
+            <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddressBookPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddressBookPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChangePasswordPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ChangePasswordPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ManageCreditCardsPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ManageCreditCardsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCreditsPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyCreditsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyInvitationsPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyInvitationsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyOrdersPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyOrdersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatergoryPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/CatergoryPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LandingPage.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/LandingPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductPage.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/ProductPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.10057143">
               <folding />
             </state>
           </provider>
@@ -94,22 +213,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/AccountDashboard.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AddressBookPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/TopMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/AccountDashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/ResetPasswordPage.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/ResetPassword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/draft/WindowHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/RegistrationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/base/PageFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountDashboardPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyInvitationsPage.java" />
+        <option value="$PROJECT_DIR$/execute_project.bat" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/AddToCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/CheckoutPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/checkout/ShoppingCartPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/login/PasswordValidationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountInformationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ChangePasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ManageCreditCardsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyCreditsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyOrdersPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/CatergoryPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/ProductPage.java" />
       </list>
     </option>
   </component>
@@ -388,7 +507,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -418,7 +541,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="listener" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,7 +575,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="draft" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,67 +609,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PageObject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sayem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
+              <option name="myItemId" value="checkout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,9 +659,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -737,24 +812,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -788,6 +845,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -805,6 +880,17 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -831,17 +917,6 @@
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -980,11 +1055,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19297267" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22810932" sideWeight="0.67065215" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33369565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1055,108 +1130,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/MyInvitations.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/login/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="600" selection-end="677" vertical-scroll-proportion="0.0">
+        <state line="13" column="13" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/login/PasswordValidationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.25.0/selenium-remote-driver-2.25.0.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/login/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2788" selection-end="2788" vertical-scroll-proportion="0.80545455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/login/ResetPasswordPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="34" selection-start="792" selection-end="792" vertical-scroll-proportion="1.159864">
+        <state line="11" column="13" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/ResetPassword.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountDashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="514" selection-end="514" vertical-scroll-proportion="0.41156462">
+        <state line="32" column="65" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AccountInformationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="52" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.5136054">
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/LandingPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddNewAddressPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="906" selection-end="906" vertical-scroll-proportion="1.2346939">
+        <state line="9" column="13" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/draft/WindowHandle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/AddressBookPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1070" selection-end="1253" vertical-scroll-proportion="0.70068026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="67" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.6360544">
+        <state line="9" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/ResetPasswordPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ChangePasswordPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/RegistrationPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/ManageCreditCardsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="732" selection-end="732" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="71" selection-start="443" selection-end="443" vertical-scroll-proportion="0.48639455" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="909" selection-end="909" vertical-scroll-proportion="0.61452514">
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/base/PageFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyCreditsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="1" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.8603352">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyInvitationsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="47" selection-start="4400" selection-end="4400" vertical-scroll-proportion="0.7398649">
+        <state line="2" column="13" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/myaccount/MyOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/CatergoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/pages/sales/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="25" selection-start="61" selection-end="61" vertical-scroll-proportion="0.10057143">
           <folding />
         </state>
       </provider>

@@ -67,6 +67,9 @@
     <orderEntry type="library" name="Maven: org.jboss.netty:netty:3.2.7.Final" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:2.25.0" level="project" />
     <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.8" level="project" />
+    <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.8" level="project" />
+    <orderEntry type="library" name="Maven: javassist:javassist:3.12.1.GA" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: com.opera:operadriver:0.14" level="project" />
     <orderEntry type="library" name="Maven: com.opera:operalaunchers:0.8" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.4.1" level="project" />
@@ -79,7 +82,6 @@
     <orderEntry type="library" name="Maven: org.apache.directory.studio:org.apache.commons.lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.directory.studio:org.apache.commons.logging:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.directory.studio:org.dom4j.dom4j:1.6.1" level="project" />
-    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-all:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.directory.studio:org.apache.httpcomponents.httpclient:4.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.beust:jcommander:1.26" level="project" />

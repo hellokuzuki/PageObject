@@ -98,18 +98,9 @@ public class Constants {
     public static final String privacyPolicyDropListLink ="div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(4) > a";
     public static final String termOfUseDropListLink ="div:nth-of-type(2) > div:nth-of-type(2) > ul > li:nth-of-type(5) > a";
 
-    /********************************************************************************************************************************/
+    /***************************************** Add New Address**********************************************************************/
 
    // Add New Address
-    public static final String firstName ="//*[@id='firstname']";
-    public static final String lastName ="//*[@id='lastname']";
-    public static final String telephone ="//*[@id='telephone']";
-    public static final String streetAddress ="//*[@id='street_1']";
-    public static final String city ="//*[@id='city']";
-    public static final String state ="//*[@id='region_id']";
-    public static final String zipCode ="//*[@id='zip']";
-    public static final String saveAddressButton ="//*[@id='form-validate']/div[3]/button";
-
     public static final String addressBook_firstName ="#firstname";
     public static final String addressBook_lastName ="#lastname";
     public static final String addressBook_telephone ="#telephone";
@@ -125,16 +116,68 @@ public class Constants {
 
 
     /***************************************** BOTTOM MENU ***************************************************************************/
-    public static final String bottomMenu_aboutUs ="//*[@id='zip']";
-    public static final String bottomMenu_careers ="//*[@id='zip']";
-    public static final String bottomMenu_blog ="//*[@id='zip']";
-    public static final String bottomMenu_affiliates ="//*[@id='zip']";
-    public static final String bottomMenu_madeInNYC ="//*[@id='zip']";
-    public static final String bottomMenu_faq ="//*[@id='zip']";
-    public static final String bottomMenu_contactUs ="//*[@id='zip']";
-    public static final String bottomMenu_termsOfUse ="//*[@id='zip']";
-    public static final String bottomMenu_privacyPolicy ="//*[@id='zip']";
+    public static final String bottomMenu_aboutUs ="";
+    public static final String bottomMenu_careers ="";
+    public static final String bottomMenu_blog ="";
+    public static final String bottomMenu_affiliates ="";
+    public static final String bottomMenu_madeInNYC ="";
+    public static final String bottomMenu_faq ="";
+    public static final String bottomMenu_contactUs ="";
+    public static final String bottomMenu_termsOfUse ="";
+    public static final String bottomMenu_privacyPolicy ="";
 
 
+    /***************************************** Add To Cart Page************************************************************************/
+    public static final String addToCartPage_size ="";
+    public static final String addToCartPage_color ="";
+    public static final String addToCartPage_qty ="";
+    public static final String addToCartPage_button ="";
+
+    /***************************************** Shopping Cart Page**********************************************************************/
+    public static final String shoppingCartPage_removeItem ="";
+    public static final String shoppingCartPage_updateCart ="";
+    public static final String shoppingCartPage_qty ="";
+    public static final String shoppingCartPage_proceedToCheckoutButton ="";
+    public static final String shoppingCartPage_applyCoupon ="";
+    public static final String shoppingCartPage_enterCoupon ="";
+    public static final String shoppingCartPage_enterGiftCard ="";
+    public static final String shoppingCartPage_addGiftCard ="";
+    public static final String shoppingCartPage_checkGiftCard ="";
+
+    /***************************************** Checkout Cart Page**********************************************************************/
+
+    // Billing Address
+    public static final String checkoutPage_billing_firstName ="//*[@id='billing:firstname']";
+    public static final String checkoutPage_billing_lastName ="//*[@id='billing:lastname']";
+    public static final String checkoutPage_billing_address1 ="//*[@id='billing:street1']";
+    public static final String checkoutPage_billing_address2 ="//*[@id='billing:street2']";
+    public static final String checkoutPage_billing_state ="//*[@id='billing:region_id']";
+    public static final String checkoutPage_billing_city ="//*[@id='billing:city']";
+    public static final String checkoutPage_billing_zipCode ="//*[@id='billing:postcode']";
+    public static final String checkoutPage_billing_phone="//*[@id='billing:telephone']";
+    public static final String checkoutPage_billing_shipThisToAddress ="//*[@id='button_ship_to']";
+
+    // Shipping Address
+    public static final String checkoutPage_shipping_firstName ="//*[@id='shipping:firstname']";
+    public static final String checkoutPage_shipping_lastName ="//*[@id='shipping:lastname']";
+    public static final String checkoutPage_shipping_address1 ="//*[@id='shipping:street1']";
+    public static final String checkoutPage_shipping_address2 ="//*[@id='shipping:street2']";
+    public static final String checkoutPage_shipping_state ="//*[@id='shipping:region_id']";
+    public static final String checkoutPage_shipping_city ="//*[@id='shipping:city']";
+    public static final String checkoutPage_shipping_zipCode ="//*[@id='shipping:postcode']";
+    public static final String checkoutPage_shipping_phone="//*[@id='shipping:telephone']";
+
+    // Payment information
+    public static final String checkoutPage_amex ="//*[@id='paymentfactory_tokenize_cc_type']/input[1]";
+    public static final String checkoutPage_visa ="//*[@id='paymentfactory_tokenize_cc_type']/input[2]";
+    public static final String checkoutPage_masterCard ="//*[@id='paymentfactory_tokenize_cc_type']/input[3]";
+    public static final String checkoutPage_discover="//*[@id='paymentfactory_tokenize_cc_type']/input[4]";
+    public static final String checkoutPage_creditCardNumber ="//*[@id='paymentfactory_tokenize_cc_number']";
+    public static final String checkoutPage_CVN ="//*[@id='paymentfactory_tokenize_cc_cid']";
+    public static final String checkoutPage_expMonth ="//*[@id='paymentfactory_tokenize_expiration']";
+    public static final String checkoutPage_expYear="//*[@id='paymentfactory_tokenize_expiration_yr']";
+    public static final String checkoutPage_saveThisCC ="//*[@id='paymentfactory_tokenize_saved']";
+    public static final String checkoutPage_placeOrder ="//*[@id='placeOrderBtn']";
+    public static final String checkoutPage_editYourCart="//*[@id='review-buttons-container']/p/a";
 
 }

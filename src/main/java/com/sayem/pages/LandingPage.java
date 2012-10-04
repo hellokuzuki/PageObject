@@ -1,7 +1,6 @@
 package com.sayem.pages;
 
 
-import com.sayem.testcases.TestBase;
 import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -17,11 +16,11 @@ public class LandingPage{
     }
 
     // My Account link
-    @FindBy(css = Constants.myAccountLink)
+    @FindBy(css = Constants.topMenuMyAccountLink)
     WebElement myAccountLink;
 
     // Account Dashboard link
-    @FindBy(css = Constants.accountDashboardlink)
+    @FindBy(css = Constants.topMenuAccountDashboardLink)
     WebElement accountDashboardLink;
 
     // AccountDashboard -> Account Dashboard Page
@@ -29,5 +28,10 @@ public class LandingPage{
         myAccountLink.click();
         accountDashboardLink.click();
         return PageFactory.initElements(driver, AccountDashboardPage.class);
+    }
+
+
+    public void inviteYourFriend(){
+
     }
 }

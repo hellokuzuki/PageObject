@@ -16,15 +16,15 @@ public class TopMenu{
     }
 
     // My Account
-    @FindBy(css = Constants.myAccountLink)
+    @FindBy(css = Constants.topMenuMyAccountLink)
     WebElement myAccountLink;
 
     // Logout
-    @FindBy(css = Constants.logoutLink)
+    @FindBy(css = Constants.topMenuLogOutLink)
     WebElement logoutLink;
 
     // Totsy Logo
-    @FindBy(css = Constants.totsyLogo)
+    @FindBy(css = Constants.topMenuTotsyLogo)
     WebElement totsyLogo;
 
 

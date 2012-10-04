@@ -16,7 +16,7 @@ public class AccountDashboardPage{
     }
 
     // Manage Address
-    @FindBy(xpath = Constants.manageAddressLink)
+    @FindBy(xpath = "")
     WebElement manageAddressLink;
 
 

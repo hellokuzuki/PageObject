@@ -17,4 +17,16 @@
         </classes>
     </test>
 
+    <test name="Reset Password test">
+        <classes>
+            <class name="com.sayem.testcases.ResetPassword" />
+        </classes>
+    </test>
+
+    <test name="Registration Test">
+        <classes>
+            <class name="com.sayem.testcases.RegistrationTest" />
+        </classes>
+    </test>
+
 </suite>

@@ -19,30 +19,52 @@ public class LoginPage{
     }
 
     // Email Address
-    @FindBy(css = Constants.email)
-    WebElement email;
+    @FindBy(css = Constants.loginPage_EmailAddress)
+    WebElement loginPage_EmailAddress;
 
     // Password
-    @FindBy(css = Constants.password)
-    WebElement password;
+    @FindBy(css = Constants.loginPage_Password)
+    WebElement loginPage_Password;
 
     // Sign In Button
-    @FindBy(css = Constants.signInButton)
-    WebElement signInButton;
+    @FindBy(css = Constants.loginpage_SignInButton)
+    WebElement loginpage_SignInButton;
+
+    // Reset Password
+    @FindBy(css = Constants.LoginPage_ForgotYourPassword)
+    WebElement LoginPage_ForgotYourPassword;
+
+    // Sign up button
+    @FindBy(css = Constants.loginPage_SignUpLink)
+    WebElement loginPage_SignUpLink;
+
+
 
     // Login --> LandingPage
     public LandingPage doLogin(String email, String password){
         driver.get("http://totsy.com");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        this.email.sendKeys(email);
-        this.password.sendKeys(password);
-        this.signInButton.click();
-
-        // LandingPage landingPage = PageFactory.initElements(driver, LandingPage.class);
-        // return landingPage;
-        // or
+        this.loginPage_EmailAddress.sendKeys(email);
+        this.loginPage_Password.sendKeys(password);
+        this.loginpage_SignInButton.click();
         return PageFactory.initElements(driver, LandingPage.class);
     }
 
+    public ResetPasswordPage resetPassword(){
+        driver.get("http://totsy.com");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        LoginPage_ForgotYourPassword.click();
+        return PageFactory.initElements(driver, ResetPasswordPage.class);
+    }
+
+    public RegistrationPage register(){
+        driver.get("http://totsy.com");
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        loginPage_SignUpLink.click();
+        return PageFactory.initElements(driver, RegistrationPage.class);
+    }
 
 }
+
+
+

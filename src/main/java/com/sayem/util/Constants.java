@@ -128,10 +128,12 @@ public class Constants {
 
 
     /***************************************** Add To Cart Page************************************************************************/
-    public static final String addToCartPage_size ="";
-    public static final String addToCartPage_color ="";
-    public static final String addToCartPage_qty ="";
-    public static final String addToCartPage_button ="";
+    public static final String addToCartPage_size ="#attribute85";
+    public static final String addToCartPage_color ="#attribute169";
+    public static final String addToCartPage_qty ="#qty";
+    public static final String addToCartPage_button =".button.btn-cart.btn.btn-primary";
+    public static final String addToCartPage_checkoutButton =".btn.checkout.btn-primary";
+
 
     /***************************************** Shopping Cart Page**********************************************************************/
     public static final String shoppingCartPage_removeItem ="";

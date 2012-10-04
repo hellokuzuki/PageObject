@@ -29,4 +29,11 @@
         </classes>
     </test>
 
+    <test name="Add to cart Test">
+        <classes>
+            <class name="com.sayem.testcases.AddToCartTest" />
+        </classes>
+    </test>
+
+
 </suite>

@@ -10,6 +10,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/AndroidDriver/pom.xml" />
+        <option value="$PROJECT_DIR$/BrowserMob/pom.xml" />
+        <option value="$PROJECT_DIR$/IPhoneDriver/pom.xml" />
+        <option value="$PROJECT_DIR$/Selenium/pom.xml" />
+        <option value="$PROJECT_DIR$/SeleniumGrid2/pom.xml" />
+        <option value="$PROJECT_DIR$/WebDriver/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>

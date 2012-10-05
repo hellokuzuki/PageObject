@@ -82,7 +82,7 @@
       <file leaf-file-name="To-do list" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/To-do list">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="52" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.61728394">
+            <state line="59" column="49" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.5802469">
               <folding />
             </state>
           </provider>
@@ -869,7 +869,11 @@
       <created>1349467145194</created>
       <updated>1349467145194</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="First Commit">
+      <created>1349471131486</created>
+      <updated>1349471131486</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1042,7 +1046,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/To-do list">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="52" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.61728394">
+        <state line="59" column="49" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.5802469">
           <folding />
         </state>
       </provider>

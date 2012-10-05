@@ -1,3 +1,5 @@
+
+
 * Implement a Java class that will use System.getProperty("os.name") to detect current operating system.
 (I should be able to load different properties based on whether I am on a Windows or Mac OS X platform).
 
@@ -45,6 +47,26 @@ I thinks it's useful to store locators as "By" objects rather than WebElements a
 (22) XLRT Reports
 (23) Java Enumeration
 (24) JBehave Intergation
+
+KEYWORD
+**************************
+deletAllCookies
+refreshPage
+javaScriptExecutor
+click
+sendKeys
+goBack
+goForward
+getTitle
+getText
+Assertion
+getSize
+isDisplay
+isPresent
+mouseHover
+keyboardKeys
+
+
 
 
 

@@ -1,5 +1,9 @@
-I find it more useful to store locators as By objects
-rather than WebElements as they are more flexible
+* Implement System.getProperty(os.name)
+(for example: I would like to be able to load different properties based on whether I am on a Windows or Mac OS X platform).
+
+***************************************************************************************************************************
+* Implement WebDriver By class
+I thinks it's useful to store locators as By objects rather than WebElements as they are more flexible
 
  By myLocator = By.id("idOfYourElement")
  instead of
@@ -7,10 +11,10 @@ rather than WebElements as they are more flexible
  @FindBy(id = "idOfYourElement")
  WebElement myLocator;
 
-
+***************************************************************************************************************************
 
 * Create multiple package to separate test cases/classes
-* Create multiple interface
+* Create multiple interface as needed
 
 (1) Execute multiple test cases
 (2) Generate HTML Reports

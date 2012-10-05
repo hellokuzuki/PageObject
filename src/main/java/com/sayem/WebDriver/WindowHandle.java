@@ -1,12 +1,9 @@
-package com.sayem.draft;
+package com.sayem.WebDriver;
 
-import mx4j.tools.config.DefaultConfigurationBuilder;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import java.util.Iterator;
-import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class WindowHandle {
@@ -29,12 +26,5 @@ public class WindowHandle {
         driver.findElement(By.cssSelector("#contact_list")).sendKeys("ssayem+201@gmail.com");
         driver.findElement(By.cssSelector(".button.btn.btn-primary.pull-right")).click();
 
-
-
-
-
-
-
-
-    }
+        }
 }

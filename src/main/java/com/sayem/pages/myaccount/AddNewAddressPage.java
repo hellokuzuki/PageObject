@@ -16,7 +16,7 @@ public class AddNewAddressPage{
 
     // First Name
     @FindBy(xpath = Constants.checkoutPage_billing_firstName)
-    WebElement firstName;
+    public WebElement firstName;
 
     // Last Name
     @FindBy(xpath = Constants.checkoutPage_billing_lastName)
@@ -48,7 +48,9 @@ public class AddNewAddressPage{
 
 
 
-
+    private void click(String valuesomething){
+        streetAddress.click();
+    }
 
     public void addNewAddressBook(String firstName,
                                   String lastName,

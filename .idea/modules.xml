@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDriver/AndroidDriver.iml" filepath="$PROJECT_DIR$/AndroidDriver/AndroidDriver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BrowserMob/BrowserMob.iml" filepath="$PROJECT_DIR$/BrowserMob/BrowserMob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IPhoneDriver/IPhoneDriver.iml" filepath="$PROJECT_DIR$/IPhoneDriver/IPhoneDriver.iml" />
       <module fileurl="file://$PROJECT_DIR$/PageObject.iml" filepath="$PROJECT_DIR$/PageObject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Selenium/Selenium.iml" filepath="$PROJECT_DIR$/Selenium/Selenium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumGrid2/SeleniumGrid2.iml" filepath="$PROJECT_DIR$/SeleniumGrid2/SeleniumGrid2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebDriver/WebDriver.iml" filepath="$PROJECT_DIR$/WebDriver/WebDriver.iml" />
     </modules>
   </component>
 </project>

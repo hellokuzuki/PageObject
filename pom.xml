@@ -5,7 +5,15 @@
   <groupId>com.sayem</groupId>
   <artifactId>PageObject</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+    <modules>
+        <module>WebDriver</module>
+        <module>Selenium</module>
+        <module>BrowserMob</module>
+        <module>SeleniumGrid2</module>
+        <module>IPhoneDriver</module>
+        <module>AndroidDriver</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>PageObject</name>
   <url>http://maven.apache.org</url>

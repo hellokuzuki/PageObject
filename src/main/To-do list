@@ -1,3 +1,14 @@
+I find it more useful to store locators as By objects
+rather than WebElements as they are more flexible
+
+ By myLocator = By.id("idOfYourElement")
+ instead of
+
+ @FindBy(id = "idOfYourElement")
+ WebElement myLocator;
+
+
+
 * Create multiple package to separate test cases/classes
 * Create multiple interface
 

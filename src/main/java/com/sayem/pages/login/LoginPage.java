@@ -2,6 +2,7 @@ package com.sayem.pages.login;
 
 
 import com.sayem.pages.sales.LandingPage;
+import com.sayem.testcases.TestBase;
 import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -43,7 +44,7 @@ public class LoginPage{
 
     // Login --> LandingPage
     public LandingPage doLogin(String email, String password){
-        driver.get("http://totsy.com");
+        driver.get(TestBase.CONFIG.getProperty("testsiteBaseURL"));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         this.loginPage_EmailAddress.sendKeys(email);
         this.loginPage_Password.sendKeys(password);
@@ -52,14 +53,14 @@ public class LoginPage{
     }
 
     public ResetPasswordPage resetPassword(){
-        driver.get("http://totsy.com");
+        driver.get(TestBase.CONFIG.getProperty("testsiteBaseURL"));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         LoginPage_ForgotYourPassword.click();
         return PageFactory.initElements(driver, ResetPasswordPage.class);
     }
 
     public RegistrationPage register(){
-        driver.get("http://totsy.com");
+        driver.get(TestBase.CONFIG.getProperty("testsiteBaseURL"));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         loginPage_SignUpLink.click();
         return PageFactory.initElements(driver, RegistrationPage.class);

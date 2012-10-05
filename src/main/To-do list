@@ -1,9 +1,9 @@
-* Implement System.getProperty(os.name)
-(for example: I would like to be able to load different properties based on whether I am on a Windows or Mac OS X platform).
+* Implement a Java class that will use System.getProperty("os.name") to detect current operating system.
+(I should be able to load different properties based on whether I am on a Windows or Mac OS X platform).
 
 ***************************************************************************************************************************
-* Implement WebDriver By class
-I thinks it's useful to store locators as By objects rather than WebElements as they are more flexible
+* Implement WebDriver "By" class
+I thinks it's useful to store locators as "By" objects rather than WebElements as they are more flexible
 
  By myLocator = By.id("idOfYourElement")
  instead of
@@ -12,10 +12,15 @@ I thinks it's useful to store locators as By objects rather than WebElements as 
  WebElement myLocator;
 
 ***************************************************************************************************************************
+* Create a SINGLE class to handle all kind of Exception (Throwable --> Exception --> ElementNotFoundExecption)
+* Make a list of all the known errors messages display on the site and put them in a SINGLE class
+  TestNG or JUNit Framework doesnt have a very good report utility so make one!!
+  For Example, If elementnotfound exception is thrown test will terminate, if you dont have a try/catch block
+               If I use try/catch block, it will display test is PASSED and there is NO of knowing if there was any exception.
 
+* Create custom Locator class (JQuery).
 * Create multiple package to separate test cases/classes
 * Create multiple interface as needed
-
 (1) Execute multiple test cases
 (2) Generate HTML Reports
 (3) Read data from XLS
@@ -39,5 +44,7 @@ I thinks it's useful to store locators as By objects rather than WebElements as 
 (21) Create Batch file
 (22) XLRT Reports
 (23) Java Enumeration
+(24) JBehave Intergation
+
 
 

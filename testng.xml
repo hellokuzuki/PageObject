@@ -5,33 +5,75 @@
     <listener class-name="com.sayem.listener.TestsListenerAdapter" />
 </listeners>
 
-    <test name="Login test">
+    <test name="Account Dashboard Test">
         <classes>
-            <class name="com.sayem.testcases.LoginTest" />
+            <class name="com.sayem.testcases.AccountDashboard" />
         </classes>
     </test>
 
-    <test name="Add New Address Book test">
+    <test name="Address Book Test">
         <classes>
             <class name="com.sayem.testcases.AddressBook" />
         </classes>
     </test>
 
-    <test name="Reset Password test">
+    <test name="Add to Cart testt">
         <classes>
-            <class name="com.sayem.testcases.ResetPassword" />
+            <class name="com.sayem.testcases.AddToCart" />
+        </classes>
+    </test>
+
+    <test name="Change Password Test">
+        <classes>
+            <class name="com.sayem.testcases.ChangePassword" />
+        </classes>
+    </test>
+
+    <test name="Checkout Test">
+        <classes>
+            <class name="com.sayem.testcases.Checkout" />
+        </classes>
+    </test>
+
+    <test name="Login Test">
+        <classes>
+            <class name="com.sayem.testcases.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Manage Credit Card Test">
+        <classes>
+            <class name="com.sayem.testcases.ManageCreditCards" />
+        </classes>
+    </test>
+
+    <test name="My Credit Cards Test">
+        <classes>
+            <class name="com.sayem.testcases.MyCredits" />
+        </classes>
+    </test>
+
+    <test name="My Invitations Test">
+        <classes>
+            <class name="com.sayem.testcases.MyInvitations" />
+        </classes>
+    </test>
+
+    <test name="My Orders Test">
+        <classes>
+            <class name="com.sayem.testcases.MyOrders" />
         </classes>
     </test>
 
     <test name="Registration Test">
         <classes>
-            <class name="com.sayem.testcases.RegistrationTest" />
+            <class name="com.sayem.testcases.Registration" />
         </classes>
     </test>
 
-    <test name="Add to cart Test">
+    <test name="Reset Password Test">
         <classes>
-            <class name="com.sayem.testcases.AddToCartTest" />
+            <class name="com.sayem.testcases.ResetPassword" />
         </classes>
     </test>
 

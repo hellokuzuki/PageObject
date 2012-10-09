@@ -9,12 +9,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-public class AddToCartTest extends TestBase{
+public class Checkout extends TestBase{
     @Test
-    public void viewAllOrder(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+    public void checkout(){
+        APPLICATION_LOGS.debug("Executing the Checkout Test");
 
-        if(!TestUtil.isExecutable("AddToCart", xls))
+        if(!TestUtil.isExecutable("Checkout", xls))
             throw new SkipException("Skipping the test");
         LandingPage landingPage =null;
         //go to landing page - if i am logged in else login

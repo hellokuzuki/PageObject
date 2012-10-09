@@ -8,12 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
 
-public class RegistrationTest extends TestBase{
+public class Registration extends TestBase{
     @Test
     public void register(){
         APPLICATION_LOGS.debug("Executing the Registration Test");
 
-        if(!TestUtil.isExecutable("RegistrationTest", xls))
+        if(!TestUtil.isExecutable("Registration", xls))
             throw new SkipException("Skipping the test");
 
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);

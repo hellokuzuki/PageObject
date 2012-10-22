@@ -23,7 +23,7 @@ public class TestBase {
     public static TopMenu topMenu = null;
     public static BottomMenu bottomMenu = null;
     public static boolean isLoggedIn = false;
-    Xls_Reader xls = new Xls_Reader(System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\data\\Test Cases.xlsx");
+    Xls_Reader xls = new Xls_Reader("src/main/java/com/sayem/data/Test Cases.xlsx");
 
 
     public void initConfigurations(){
@@ -44,10 +44,10 @@ public class TestBase {
     public void initDriver(){
 
         // Chrome Driver Path
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\ChromeDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "ChromeDriver/chromedriver.exe");
 
         // Internet Explorer Path
-        File file = new File(System.getProperty("user.dir")+"\\IEDriver\\IEDriverServer.exe");
+        File file = new File("IEDriver/IEDriverServer.exe");
         System.setProperty("webdriver.ie.driver", file.getAbsolutePath());
 
         if(driver==null){

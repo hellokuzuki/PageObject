@@ -34,7 +34,7 @@ public class TestUtil {
     public static void takeScreenShot(String fileName) {
         File srcFile = ((TakesScreenshot)(TestBase.driver)).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir") + "\\screenshots\\" + fileName + ".jpg"));
+            FileUtils.copyFile(srcFile, new File("/screenshots/" + fileName + ".jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -4,8 +4,8 @@ package com.sayem.util;
 public class Constants {
 
     // PATHS
-    public static String CONFIG_FILE_PATH =System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\config\\config.properties";
-    public static String OR_FILE_PATH =System.getProperty("user.dir")+"\\src\\main\\java\\com\\sayem\\config\\OR.properties";
+    public static String CONFIG_FILE_PATH ="src/main/java/com/sayem/config/config.properties";
+    public static String OR_FILE_PATH ="src/main/java/com/sayem/config/OR.properties";
 
 
     /***************************************** LOGIN PAGE ***************************************************************************/

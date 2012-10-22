@@ -17,7 +17,7 @@ import java.util.Calendar;
 
 @SuppressWarnings("ALL")
 public class Xls_Reader {
-    public static String filename = System.getProperty("user.dir")+"\\src\\config\\testcases\\TestData.xlsx";
+    public static String filename = "src/config/testcases/TestData.xlsx";
     public  String path;
     public  FileInputStream fis = null;
     public  FileOutputStream fileOut =null;
@@ -485,7 +485,7 @@ public class Xls_Reader {
         Xls_Reader datatable = null;
 
 
-        datatable = new Xls_Reader("H:\\Selenium_Workspaces\\Framework_Weekend\\src\\Framework_XL_Files\\Controller.xlsx");
+        datatable = new Xls_Reader("src/Framework_XL_Files/Controller.xlsx");
         for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
             System.out.println(datatable.getCellData("TC5", col, 1));
         }

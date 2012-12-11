@@ -1,7 +1,6 @@
 package com.sayem.pages.myaccount;
 
 
-import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,35 +14,35 @@ public class AddNewAddressPage{
     }
 
     // First Name
-    @FindBy(xpath = Constants.checkoutPage_billing_firstName)
+    @FindBy(css = "#firstname")
     public WebElement firstName;
 
     // Last Name
-    @FindBy(xpath = Constants.checkoutPage_billing_lastName)
+    @FindBy(css = "#lastname")
     WebElement lastName;
 
     // Telephone
-    @FindBy(xpath = Constants.checkoutPage_billing_phone)
+    @FindBy(css = "#telephone")
     WebElement telephone;
 
     // Street Address
-    @FindBy(xpath = Constants.checkoutPage_billing_address1)
+    @FindBy(css = "#street_1")
     WebElement streetAddress;
 
     // City
-    @FindBy(xpath = Constants.checkoutPage_billing_city)
+    @FindBy(css = "#city")
     WebElement city;
 
     // State
-    @FindBy(xpath = Constants.checkoutPage_billing_state)
+    @FindBy(css = "#region_id")
     WebElement state;
 
     // Zip Code
-    @FindBy(xpath = Constants.checkoutPage_billing_zipCode)
+    @FindBy(css = "#zip")
     WebElement zipCode;
 
     // Save Address
-    @FindBy(xpath = Constants.checkoutPage_billing_shipThisToAddress)
+    @FindBy(css = ".button.btn.btn-primary")
     WebElement saveAddressButton;
 
 

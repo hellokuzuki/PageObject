@@ -1,6 +1,5 @@
 package com.sayem.pages.myaccount;
 
-import com.sayem.util.Constants;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +14,7 @@ public class AddressBookPage{
     }
 
     // Add New Address
-    @FindBy(xpath = Constants.topMenuAddressBookLink)
+    @FindBy(css = ".button.btn.btn-primary.pull-right")
     WebElement addNewAddressLink;
 
     public AddNewAddressPage AddNewAddress(){

@@ -14,7 +14,7 @@ public class AccountDashboardPage{
     }
 
     // Manage Address
-    @FindBy(xpath = "")
+    @FindBy(css = ".col2-set.well > h3 > a")
     WebElement manageAddressLink;
 
 

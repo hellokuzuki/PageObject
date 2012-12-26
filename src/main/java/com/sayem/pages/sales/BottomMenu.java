@@ -1,4 +1,4 @@
-package com.sayem.pages;
+package com.sayem.pages.sales;
 
 
 public class BottomMenu {

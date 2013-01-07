@@ -1,7 +1,7 @@
 package com.sayem.testcases;
 
-import com.sayem.pages.BottomMenu;
-import com.sayem.pages.TopMenu;
+import com.sayem.pages.sales.BottomMenu;
+import com.sayem.pages.sales.TopMenu;
 import com.sayem.util.Constants;
 import com.sayem.util.Xls_Reader;
 import org.apache.log4j.Logger;

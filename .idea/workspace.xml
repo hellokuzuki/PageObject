@@ -4,7 +4,11 @@
     <list default="true" id="941f2e89-48df-4ef3-b2d8-ec540fdd3372" name="Default" comment="" />
     <ignored path="PageObject.iws" />
     <ignored path=".idea/workspace.xml" />
+<<<<<<< HEAD
     <file path="/Dummy.txt" changelist="941f2e89-48df-4ef3-b2d8-ec540fdd3372" time="1357597280134" ignored="false" />
+=======
+    <file path="/Dummy.txt" changelist="941f2e89-48df-4ef3-b2d8-ec540fdd3372" time="1357597386275" ignored="false" />
+>>>>>>> staging
     <file path="/pom.xml" changelist="941f2e89-48df-4ef3-b2d8-ec540fdd3372" time="1355326452137" ignored="false" />
     <file path="/config.properties" changelist="941f2e89-48df-4ef3-b2d8-ec540fdd3372" time="1355333633306" ignored="false" />
     <file path="$USER_HOME$/TestModel/pom.xml" changelist="941f2e89-48df-4ef3-b2d8-ec540fdd3372" time="1355330452350" ignored="false" />
@@ -66,10 +70,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="78" column="115" selection-start="2907" selection-end="2907" vertical-scroll-proportion="0.63697106">
+=======
+            <state line="53" column="27" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
+>>>>>>> staging
               <folding />
             </state>
           </provider>
@@ -129,10 +137,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Page.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="3" column="28" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
+=======
+            <state line="120" column="19" selection-start="3864" selection-end="3864" vertical-scroll-proportion="0.3147942">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OR.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/config/OR.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="29" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+>>>>>>> staging
               <folding />
             </state>
           </provider>
@@ -141,7 +162,11 @@
       <file leaf-file-name="TestUtil.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="13" column="40" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+=======
+            <state line="12" column="13" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+>>>>>>> staging
               <folding />
             </state>
           </provider>
@@ -170,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/sayem/WebDriver/WindowHandle.java" />
         <option value="$PROJECT_DIR$/WebDriver/pom.xml" />
         <option value="$PROJECT_DIR$/Selenium/pom.xml" />
         <option value="$PROJECT_DIR$/BrowserMob/pom.xml" />
@@ -186,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/testcases/Registration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sayem/config/OR.properties" />
       </list>
     </option>
   </component>
@@ -198,10 +223,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="2" />
     <option name="y" value="1082" />
     <option name="width" value="1918" />
     <option name="height" value="1079" />
+=======
+    <option name="y" value="1081" />
+    <option name="width" value="1919" />
+    <option name="height" value="1080" />
+>>>>>>> staging
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -251,12 +282,21 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="PageObject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+=======
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+>>>>>>> staging
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -422,6 +462,10 @@
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sales" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -450,10 +494,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sales" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -697,12 +737,21 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+=======
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PageObject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+>>>>>>> staging
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1103,7 +1152,11 @@
       <created>1355797391441</created>
       <updated>1355797391441</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="First Commit">
+      <created>1356490710268</created>
+      <updated>1356490710269</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -1127,10 +1180,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="2" y="1082" width="1918" height="1079" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32760736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="0" y="1081" width="1919" height="1080" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> staging
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1144,13 +1204,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19719827" sideWeight="0.99891424" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20516963" sideWeight="0.99888515" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> staging
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33298755" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32799146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32572615" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32470587" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+>>>>>>> staging
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39937758" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1217,13 +1285,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/testcases/AddToCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="392" selection-end="1264" vertical-scroll-proportion="0.28144988">
@@ -1259,6 +1320,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="40" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
@@ -1273,6 +1335,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> staging
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="23" selection-start="202" selection-end="202" vertical-scroll-proportion="0.35656402" />
@@ -1322,7 +1386,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="78" column="115" selection-start="2907" selection-end="2907" vertical-scroll-proportion="0.63697106">
+=======
+        <state line="53" column="27" selection-start="2004" selection-end="2004" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/util/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/config/OR.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="29" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sayem/base/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="19" selection-start="3864" selection-end="3864" vertical-scroll-proportion="0.3147942">
+>>>>>>> staging
           <folding />
         </state>
       </provider>

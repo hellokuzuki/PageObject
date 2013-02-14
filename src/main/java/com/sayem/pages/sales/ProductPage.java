@@ -18,7 +18,7 @@ public class ProductPage {
     }
 
     public AddToCartPage selectRandomProduct(){
-        List<WebElement> items = driver.findElements(By.cssSelector(".thumbnail"));
+        List<WebElement> items = driver.findElements(By.xpath("//*[@class='thumbnail'][not(@status_sold_out)]/a"));
         Random num = new Random();
         int index=num.nextInt(items.size());
         items.get(index).click();

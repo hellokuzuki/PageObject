@@ -42,6 +42,7 @@ public class AddToCartPage {
             System.out.println("Element is not found");
         }
         try {
+            this.addToCartPage_qty.clear();
             this.addToCartPage_qty.sendKeys(addToCartPage_qty);
         } catch (Exception e) {
             System.out.println("Element is not found");

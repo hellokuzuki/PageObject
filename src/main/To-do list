@@ -47,7 +47,7 @@ I thinks it's useful to store locators as "By" objects rather than WebElements a
 (21) Create Batch file
 (22) XLRT Reports
 (23) Java Enumeration
-(24) JBehave Intergation
+(24) Cucumber Intergation
 
 KEYWORD
 **************************

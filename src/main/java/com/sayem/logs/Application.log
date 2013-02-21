@@ -1,0 +1,14 @@
+2013-21-21 14:34:08 DEBUG devpinoyLogger:17 - Executing Account Dashboard Test
+2013-21-21 14:34:08 DEBUG devpinoyLogger:17 - Executing Address Book Test
+2013-21-21 14:34:08 DEBUG devpinoyLogger:42 - Executing the upload pic test
+2013-21-21 14:34:08 DEBUG devpinoyLogger:15 - Executing Add to Cart Test
+2013-21-21 14:34:08 DEBUG devpinoyLogger:16 - Executing Change Password
+2013-21-21 14:34:08 DEBUG devpinoyLogger:15 - Executing the Checkout Test
+2013-21-21 14:34:21 DEBUG devpinoyLogger:31 - Quitting driver
+2013-21-21 14:34:23 DEBUG devpinoyLogger:16 - Executing Manage Credit Cards Test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:41 - Executing the upload pic test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:16 - Executing My Credit Test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:16 - Executing My Invitations Test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:16 - Executing My Order Test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:14 - Executing Registration Test
+2013-21-21 14:34:23 DEBUG devpinoyLogger:13 - Executing password reset test

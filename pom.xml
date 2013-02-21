@@ -6,30 +6,21 @@
     <artifactId>PageObject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <!--
-    <modules>
-        <module>WebDriver</module>
-        <module>Selenium</module>
-        <module>BrowserMob</module>
-        <module>SeleniumGrid2</module>
-        <module>IPhoneDriver</module>
-        <module>AndroidDriver</module>
-    </modules>
-    -->
-  <name>PageObject</name>
-  <url>http://maven.apache.org</url>
-  <description>General purpose test automation framework for Java. Based on Concordion and Selenium2</description>
 
-  <licenses>
-      <license>
-          <name>The Apache Software License, Version 2.0</name>
-          <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
-          <distribution>repo</distribution>
-      </license>
-  </licenses>
+    <name>PageObject</name>
+    <url>http://maven.apache.org</url>
+    <description>General purpose test automation framework for Java. Based on Concordion and Selenium2</description>
+
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <properties>
-        <org.selenium-version>2.28.0</org.selenium-version>
+        <org.selenium-version>2.29.1</org.selenium-version>
         <jdk.version>1.7</jdk.version>
         <org.springframework-version>3.1.0.RELEASE</org.springframework-version>
         <resources.encoding>UTF-8</resources.encoding>

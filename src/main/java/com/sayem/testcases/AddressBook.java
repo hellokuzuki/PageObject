@@ -14,7 +14,7 @@ public class AddressBook extends TestBase{
 
     @Test
     public void addNewAddress(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+        APPLICATION_LOGS.debug("Executing Address Book Test");
 
         if(!TestUtil.isExecutable("AddNewAddress", xls))
             throw new SkipException("Skipping the test");

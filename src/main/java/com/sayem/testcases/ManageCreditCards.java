@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class ManageCreditCards extends TestBase{
     @Test
     public void addNewCreditCard(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+        APPLICATION_LOGS.debug("Executing Manage Credit Cards Test");
 
         if(!TestUtil.isExecutable("addNewAddress", xls))
             throw new SkipException("Skipping the test");

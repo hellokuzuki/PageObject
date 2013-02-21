@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 public class AccountDashboard extends TestBase{
     @Test
     public void viewAllOrder(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+        APPLICATION_LOGS.debug("Executing Account Dashboard Test");
 
         if(!TestUtil.isExecutable("viewAllOrder", xls))
             throw new SkipException("Skipping the test");

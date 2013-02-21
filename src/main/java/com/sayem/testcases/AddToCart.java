@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class AddToCart extends TestBase{
     @Test
     public void viewAllOrder(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+        APPLICATION_LOGS.debug("Executing Add to Cart Test");
 
         if(!TestUtil.isExecutable("AddToCart", xls))
             throw new SkipException("Skipping the test");

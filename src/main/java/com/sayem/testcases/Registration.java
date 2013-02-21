@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Registration extends TestBase{
     @Test
     public void register(){
-        APPLICATION_LOGS.debug("Executing the Registration Test");
+        APPLICATION_LOGS.debug("Executing Registration Test");
 
         if(!TestUtil.isExecutable("Registration", xls))
             throw new SkipException("Skipping the test");

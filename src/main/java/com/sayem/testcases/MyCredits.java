@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class MyCredits extends TestBase{
     @Test
     public void addNewAddress(){
-        APPLICATION_LOGS.debug("Executing the upload pic test");
+        APPLICATION_LOGS.debug("Executing My Credit Test");
 
         if(!TestUtil.isExecutable("AddNewAddress", xls))
             throw new SkipException("Skipping the test");
